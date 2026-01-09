@@ -28,6 +28,11 @@ header span{
   font-size: 1.2rem;
   color: var(--primary-color);
 }
+
+ul {
+	list-style-type: none;
+}
+
 /* classes */
 
 .hamburger{
@@ -46,4 +51,15 @@ header span{
     content: "\00D7";
 }
 
+.navigation {
+  display: none;
+}
+
+.navigation.show {
+  display: block;
+}
+
+.navigation ul {
+  display: flex;
+}
 /* ids */

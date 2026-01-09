@@ -11,4 +11,7 @@
     .hamburger{
         display: none;
     }
+    .navigation {
+        display: block;
+    }
 }
