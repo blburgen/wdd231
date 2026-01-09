@@ -2,6 +2,10 @@
   --primary-color: rgb(19, 19, 160);
   --secondary-color: rgb(5, 202, 5);
   --third-color: rgb(220, 247, 252);
+  
+  --gray-c: rgb(204, 204, 204);
+  --gray-d: rgb(221, 221, 221);
+  --gray-e: rgb(238, 238, 238);
 }
 
 *{
@@ -13,7 +17,7 @@ header {
   display: grid;
   grid-template-columns: 24px auto 44px;
   padding: 5px 0 5px 10px;
-  border-bottom: solid 1px #ddd;
+  border-bottom: solid 1px var(--gray-d);
   column-gap: 10px;
   align-items: end;
 }
@@ -32,6 +36,12 @@ header span{
 
 h1{
   margin-left: 10px;
+}
+
+footer{
+  background-color: var(--gray-e);
+  padding: 1rem 10px;
+  text-align: center;
 }
 
 /* classes */
@@ -79,8 +89,34 @@ h1{
 }
 
 .current a{
-  background-color: #eee;
+  background-color: var(--gray-e);
 	color: var(--secondary-color);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+
+}
+
+.social a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: var(--gray-c) solid 1px;
+  border-radius: 10px;
+}
+
+.social img{
+  width: 22px;
+  height: 22px;
+}
+
+.social a:hover{
+  background-color: var(--gray-d);
 }
 
 /* ids */
