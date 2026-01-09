@@ -1,11 +1,13 @@
 :root{
   --primary-color: rgb(19, 19, 160);
-  --secondary-color: rgb(5, 202, 5);
+  --secondary-color: rgb(5, 100, 5);
   --third-color: rgb(220, 247, 252);
   
+  --gray-f0: rgb(240, 240, 240);
+  --gray-e: rgb(238, 238, 238);
   --gray-c: rgb(204, 204, 204);
   --gray-d: rgb(158, 158, 158);
-  --gray-e: rgb(238, 238, 238);
+  
 }
 
 *{
@@ -87,7 +89,7 @@ header span{
 }
 
 .current a{
-  background-color: var(--gray-e);
+  background-color: var(--gray-f0);
 	color: var(--secondary-color);
 }
 

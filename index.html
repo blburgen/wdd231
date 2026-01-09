@@ -7,6 +7,8 @@
     <meta name="description" content="">
     <meta name="author" content="Brady Burgener">
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Yarndings+20&display=swap" rel="stylesheet">
+
     <!-- Style Sheets -->
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -14,6 +16,7 @@
     
     <!-- Script Sheets -->
     <script src="scripts/navigation.js" defer></script>
+    <script src="./scripts/getdates.js" defer></script>
 </head>
 
 <body>
@@ -24,13 +27,25 @@
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li ><a href="#">News & Events</a></li>
-            <li class="current"><a href="#">Dedicated Temples</a></li>
-            <li><a href="#">Announced Temples</a></li>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
         </ul>
     </nav>
     <main>
-        <h1>Dedicated Temples</h1>
+        <h1>Home</h1>
+        <div id="about" class="about">
+            <h2>About Me</h2>
+        </div>
+        <div id="photo" class="photo">
+            <h2>Student Photo</h2>
+        </div>
+        <div id="certificate" class="certificate">
+            <h2>Web Certificate Courses</h2>
+            <button>All</button>
+            <button>CSE</button>
+            <button>WDD</button>
+        </div>
     </main>
     <footer>
         <div class="social">
@@ -39,8 +54,8 @@
             <a href="https://www.youtube.com/@BradyLB" target="_blank"><img src="images/youtube.svg" alt="youtube" width="16" height="16"></a>
             <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
         </div>
-        <p>copyright symbol and current year</p>
-        <p>Last Modified</p>
+        <p>&copy;<span id="currentyear"></span> <span class="yarndings">a</span> Brady Burgener <span class="yarndings">a</span> Idaho, USA</p>
+        <p id="lastModified"></p>
     </footer>
 </body>
 </html>
