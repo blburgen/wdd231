@@ -77,21 +77,22 @@ header span{
   margin: 0;
 }
 
-.navigation  a {
+.navigation a {
 	display: block;
 	padding: 1rem 10px;
   color: var(--primary-color);
 	text-decoration: none;
   border-bottom: solid 1px var(--primary-color);
+  font-size: large;
+  font-weight: 900;
 }
 
 .navigation a:hover {
 	background-color: var(--third-color);
 }
 
-.current a{
+.navigation .current a{
   background-color: var(--gray-f0);
-	color: var(--secondary-color);
 }
 
 /* -----main----- */
