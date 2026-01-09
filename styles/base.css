@@ -2,6 +2,7 @@
   --primary-color: rgb(19, 19, 160);
   --secondary-color: rgb(5, 100, 5);
   --third-color: rgb(220, 247, 252);
+  --fourth-color: rgb(200, 255, 200);
   
   --gray-f0: rgb(240, 240, 240);
   --gray-e: rgb(238, 238, 238);
@@ -144,7 +145,7 @@ main img{
   grid-template-columns: 1fr;
 }
 
-.sort button, .result button {
+.sort button{
   height: 44px;
   flex-grow: 1;
   border-radius: .5rem;
@@ -157,6 +158,21 @@ main img{
 .sort button:hover{
   background-color: var(--gray-c);
   cursor: pointer;
+}
+
+.result button {
+  height: 44px;
+  flex-grow: 1;
+  border-radius: .5rem;
+  color: var(--gray-f0);
+  background-color: var(--secondary-color);
+  font-size: larger;
+  font-weight: 1000;
+}
+
+.result .done {
+  color: var(--primary-color);
+  background-color: var(--fourth-color);
 }
 
 .certificate p{
