@@ -11,7 +11,7 @@
 }
 
 *{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
 
@@ -96,7 +96,7 @@ header span{
 /* -----main----- */
 /* elements */
 
-h1{
+h1, section{
   margin-left: 10px;
 }
 
@@ -137,4 +137,10 @@ footer{
 
 .social a:hover{
   background-color: var(--gray-d);
+}
+
+.yarndings {
+  font-family: "Yarndings 20", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
