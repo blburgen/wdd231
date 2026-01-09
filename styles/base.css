@@ -96,11 +96,73 @@ header span{
 /* -----main----- */
 /* elements */
 
-h1, section{
+h1, section p{
   margin-left: 10px;
+  margin-right: 10px;
+}
+
+section{
+  background-color: var(--gray-f0);
+}
+
+h2{
+  color: var(--primary-color);
+  text-align: center;
+  background-color: var(--gray-c);
+  padding-top: 20px;
+  padding-bottom:20px
+}
+
+main img{
+  display: block;
+  width: 200px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
 }
 
 /* classes */
+
+.about {
+  padding-bottom: 8px;
+}
+
+.sort, .result{
+  display: grid;
+  gap: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.sort{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.result{
+  grid-template-columns: 1fr;
+}
+
+.sort button, .result button {
+  height: 44px;
+  flex-grow: 1;
+  border-radius: .5rem;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  font-size: larger;
+  font-weight: 1000;
+}
+
+.sort button:hover{
+  background-color: var(--gray-c);
+  cursor: pointer;
+}
+
+.certificate p{
+
+  text-align: center;  
+}
 
 /* -----footer----- */
 /* elements */
