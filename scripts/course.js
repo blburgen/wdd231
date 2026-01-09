@@ -91,17 +91,15 @@ function displayCourses(filteredList){
     credits = 0;
     filteredList.forEach(item => {
         credits += item.credits;
-        let button = document.createElement("button");
+        let button = document.createElement("div");
         if (item.completed == true){
-            button.classList.add('done');
-            button.innerHTML = '&#10004;' + item.subject + " " + item.number;   
+            button.innerHTML = '&#10004;' + item.subject + " " + item.number;  
+            button.classList.add('done'); 
         }
         else{
             button.textContent = item.subject + " " + item.number;
         }
-        if (item.completed == true){
-            button.setAttribute("class", "done");
-        }
+        button.classList.add('button');
         result.appendChild(button);
     });
     // result.innerHTML = toInsert;

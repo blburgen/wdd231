@@ -146,24 +146,30 @@ main img{
   grid-template-columns: 1fr;
 }
 
-.sort button{
+.sort div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 44px;
-  flex-grow: 1;
   border-radius: .5rem;
+  border: solid 1px var(--primary-color);
   border-color: var(--primary-color);
   color: var(--primary-color);
   font-size: larger;
   font-weight: 1000;
 }
 
-.sort button:hover{
+.sort div:hover{
   background-color: var(--gray-c);
   cursor: pointer;
 }
 
-.result button {
+.result .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 44px;
-  flex-grow: 1;
+  border: solid 1px var(--primary-color);
   border-radius: .5rem;
   color: var(--gray-f0);
   background-color: var(--secondary-color);
