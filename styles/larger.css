@@ -13,5 +13,18 @@
     }
     .navigation {
         display: block;
+        text-align: center;
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    li {
+		flex: 100%;
+	}
+
+    .navigation a{
+        border: none;
     }
 }

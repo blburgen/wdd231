@@ -1,6 +1,7 @@
 :root{
   --primary-color: rgb(19, 19, 160);
   --secondary-color: rgb(5, 202, 5);
+  --third-color: rgb(220, 247, 252);
 }
 
 *{
@@ -29,8 +30,8 @@ header span{
   color: var(--primary-color);
 }
 
-ul {
-	list-style-type: none;
+h1{
+  margin-left: 10px;
 }
 
 /* classes */
@@ -42,12 +43,12 @@ ul {
   cursor: pointer;
 }
 
-.hamburger::after{
+.hamburger::before{
   content: "\2630";
   font-size: 1.5rem;
 }
 
-.hamburger.show::after{
+.hamburger.show::before{
     content: "\00D7";
 }
 
@@ -60,6 +61,26 @@ ul {
 }
 
 .navigation ul {
-  display: flex;
+	list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
+
+.navigation  a {
+	display: block;
+	padding: 1rem 10px;
+  color: var(--primary-color);
+	text-decoration: none;
+  border-bottom: solid 1px var(--primary-color);
+}
+
+.navigation a:hover {
+	background-color: var(--third-color);
+}
+
+.current a{
+  background-color: #eee;
+	color: var(--secondary-color);
+}
+
 /* ids */
