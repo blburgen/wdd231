@@ -1,5 +1,32 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    margin-bottom: 0;
+}
+
 main div {
     display: grid;
-    grid-gap: 0.5rem;
+    /* grid-gap: 0.5rem; */
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+}
+
+section p {
+    margin: 5px;
+}
+
+img {
+	width: 200px;
+    height: auto;
+    box-shadow: 0 0 10px black;
 }
