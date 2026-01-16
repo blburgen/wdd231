@@ -3,25 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231 home page | Brady Burgener</title>
+    <title>Directory for Idaho Falls Chamber of Commerce | WDD 231 home page | Brady Burgener</title>
     <meta name="description" content="A chamber of commerce page for Idaho Falls for the course WDD231 from BYUI.">
     <meta name="author" content="Brady Burgener">
     <link rel="icon" href="images/favicon.ico">
 
     <!-- facebook meta tags -->
-    <meta property="og:title" content="Brady Burgener Homepage">
+    <meta property="og:title" content="Chamber of Commerce Directory">
     <meta property="og:description" content="A chamber of commerce page for Idaho Falls for the course WDD231 from BYUI.">
     <meta property="og:url" content="https://blburgen.github.io/wdd231/chamber/directory.html">
     <meta property="og:locale" content="en_US">
     <meta property="og:image" content="https://blburgen.github.io/wdd231/chamber/images/facebook_image.png">
 
-    <!-- styles -->
+    <!-- text families -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Yarndings+20&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- scripts -->
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    <!-- Script Sheets -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
 
 
 </head>
 <body>
-    
+    <header>
+
+    </header>
+    <main>
+        <h1>
+            Directory for Idaho Falls Chamber of Commerce
+        </h1>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/blburgen" target="_blank"><img src="images/github.svg" alt="github logo" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/brady-burgener/" target="_blank"><img src="images/linkedin.svg" alt="linkedin logo" width="16" height="16"></a>
+            <a href="https://www.youtube.com/@BradyLB" target="_blank"><img src="images/youtube.svg" alt="youtube logo" width="16" height="16"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg" alt="facebook logo" width="16" height="16"></a>
+        </div>
+        <p>&copy;<span id="currentyear"></span> <span class="yarndings">a</span> Brady Burgener <span class="yarndings">a</span> Idaho, USA</p>
+        <p id="lastModified"></p>
+    </footer>
 </body>
 </html>
