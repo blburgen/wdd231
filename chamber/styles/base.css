@@ -109,14 +109,6 @@ section{
   background-color: var(--gray-f0);
 }
 
-h2{
-  color: var(--primary-color);
-  text-align: center;
-  background-color: var(--gray-c);
-  padding-top: 20px;
-  padding-bottom:20px
-}
-
 /* classes */
 
 .menu{
@@ -154,7 +146,7 @@ h2{
   box-shadow: 0 0 1rem var(--gray-d);
 }
 
-.grid section h3 {
+.grid section h2 {
   text-align: center;
 	font-size: 1.2rem;
 }
@@ -175,7 +167,7 @@ h2{
   display: none;
 }
 
-.list section h3 {
+.list section h2 {
   font-size: 1rem;
 }
 
@@ -196,7 +188,7 @@ footer div{
   margin-top: 10px;
 }
 
-footer p, footer h4{
+footer p, footer h3{
   margin: 0;
 }
 
