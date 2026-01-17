@@ -7,7 +7,7 @@
             "email": "N/A",
             "company_phone_number": "(208) 478-3300",
             "company_website": "iccu.com",
-            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2025/02/ICCU-logo-2color.png",
+            "imageurl": "images/ICCU-logo.png",
             "membership_level": 1
         },
         {
@@ -17,7 +17,7 @@
             "email": "N/A",
             "company_phone_number": "(208) 557-2700",
             "company_website": "mountainviewhospital.org",
-            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/mvh.png",
+            "imageurl": "images/mountain-view-logo.png",
             "membership_level": 1
         },
         {
@@ -27,7 +27,7 @@
             "email": "N/A",
             "company_phone_number": "(208) 528-1000",
             "company_website": "idahofallscommunityhospital.com",
-            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/ifhospital.png",
+            "imageurl": "images/ifhospital-logo.png",
             "membership_level": 1
         },
         {
@@ -37,7 +37,7 @@
             "email": "N/A",
             "company_phone_number": "(800) 538-5038",
             "company_website": "selecthealth.org",
-            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/selecthealth.png",
+            "imageurl": "images/select-health-logo.png",
             "membership_level": 1
         },
         {
@@ -47,7 +47,7 @@
             "email": "erik.madsen@eosworldwide.com",
             "company_phone_number": "(208) 270-9478",
             "company_website": "eosworldwide.com",
-            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/eos.png",
+            "imageurl": "images/eos-logo.png",
             "membership_level": 1
         },
         {
@@ -57,7 +57,7 @@
             "email": "N/A",
             "company_phone_number": "(208) 524-3000",
             "company_website": "cei.edu",
-            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/cei.png",
+            "imageurl": "images/cei-logo.png",
             "membership_level": 1
         },
         {
@@ -67,7 +67,7 @@
             "email": "news@eastidahonews.com",
             "company_phone_number": " (208) 528-6397",
             "company_website": "eastidahonews.com",
-            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/eastidahonews.png",
+            "imageurl": "images/eastidahonews-logo.png",
             "membership_level": 1
         }
     ]
