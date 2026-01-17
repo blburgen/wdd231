@@ -1,11 +1,32 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 701px) {
+
+    header{
+        float: left;
+        border: none;
+    }
+
+    main{
+        border-top: solid 1px var(--gray-d);
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    footer div{
+        flex-grow: 1;
+        text-align: left;
+    }
 
     .hamburger{
         display: none;
     }
+
     .navigation {
-        display: block;
+        display: flex;
         text-align: center;
+        justify-content: right;
     }
 
     .navigation ul {
@@ -15,4 +36,19 @@
     .navigation a{
         border: none;
     }
+
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    }
+
+    .grid section {
+        min-width: 320px;
+        width: auto;
+        max-width: 400px;
+    }
+
+    .list section {
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+
 }
