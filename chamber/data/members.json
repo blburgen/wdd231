@@ -1,0 +1,104 @@
+{
+    "members": [
+        {
+            "company_name": "ICCU",
+            "tag_line": "Looking After Your Daily Balance",
+            "company_address": "169 Houston Circle, Idaho Falls, ID 83402",
+            "email": "",
+            "company_phone_number": "208-478-3300",
+            "company_website": "https://www.iccu.com/",
+            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2025/02/ICCU-logo-2color.png",
+            "membership_level": 1
+        },
+        {
+            "company_name": "Mountain View Hospital",
+            "tag_line": "Revolutionizing healthcare by putting people first. Always.",
+            "company_address": "2325 Coronado St, Idaho Falls, ID 83404",
+            "email": "",
+            "company_phone_number": "(208) 557-2700",
+            "company_website": "http://www.mountainviewhospital.org/",
+            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/mvh.png",
+            "membership_level": 1
+        },
+        {
+            "company_name": "Idaho Falls Community Hospital",
+            "tag_line": "All Grit and No Quit.",
+            "company_address": "2327 Coronado St, Idaho Falls, ID 83404",
+            "email": "",
+            "company_phone_number": "(208) 528-1000",
+            "company_website": "https://www.idahofallscommunityhospital.com/",
+            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/ifhospital.png",
+            "membership_level": 1
+        },
+        {
+            "company_name": "Select Health",
+            "tag_line": "A Healthier Life Starts Now",
+            "company_address": "348 Memorial Dr, Idaho Falls, ID 83402",
+            "email": "",
+            "company_phone_number": "(800) 538-5038",
+            "company_website": "https://selecthealth.org/",
+            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/selecthealth.png",
+            "membership_level": 1
+        },
+        {
+            "company_name": "EOS",
+            "tag_line": "",
+            "company_address": "",
+            "email": "",
+            "company_phone_number": "",
+            "company_website": "",
+            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/eos.png",
+            "membership_level": 1
+        },
+        {
+            "company_name": "College of Eastern Idaho",
+            "tag_line": "",
+            "company_address": "",
+            "email": "",
+            "company_phone_number": "",
+            "company_website": "",
+            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/cei.png",
+            "membership_level": 1
+        },
+        {
+            "company_name": "East Idaho News",
+            "tag_line": "",
+            "company_address": "",
+            "email": "",
+            "company_phone_number": "",
+            "company_website": "",
+            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/eastidahonews.png",
+            "membership_level": 1
+        },
+        {
+            "company_name": "Rich Broadcasting",
+            "tag_line": "",
+            "company_address": "",
+            "email": "",
+            "company_phone_number": "",
+            "company_website": "",
+            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/rich.png",
+            "membership_level": 1
+        },
+        {
+            "company_name": "Post Register",
+            "tag_line": "",
+            "company_address": "",
+            "email": "",
+            "company_phone_number": "",
+            "company_website": "",
+            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/pr.png",
+            "membership_level": 1
+        },
+        {
+            "company_name": "Club Apple",
+            "tag_line": "",
+            "company_address": "",
+            "email": "",
+            "company_phone_number": "",
+            "company_website": "",
+            "imageurl": "https://idahofallschamber.com/wp-content/uploads/2024/02/clubapple.png",
+            "membership_level": 1
+        }
+    ]
+}
