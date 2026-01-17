@@ -29,6 +29,7 @@
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/getmembers.js" defer></script>
+    <script src="scripts/grid.js" defer></script>
 
 
 </head>
@@ -40,7 +41,11 @@
         <h1>
             Directory for Idaho Falls Chamber of Commerce
         </h1>
-        <div id="cards"></div>
+        <div class="menu">
+		    <button id="grid">Grid</button>
+		    <button id="list">List</button>
+	    </div>
+        <div id="cards" class="grid"></div>
     </main>
     <footer>
         <p>Idaho Falls Chamber of Commerce</p>
@@ -56,7 +61,7 @@
         </div>
         <p>WDD231 Class Project</p>
         <p>Brady Burgener</p>
-        <span class="yarndings">a</span> &copy;<span id="currentyear"></span> Idaho Falls Chamber of Commerce, USA <span class="yarndings">a</span></p>
+        <p><span class="yarndings">a</span> &copy;<span id="currentyear"></span> Idaho Falls Chamber of Commerce, USA <span class="yarndings">a</span></p>
         <p id="lastModified"></p>
     </footer>
 </body>
