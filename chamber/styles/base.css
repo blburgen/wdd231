@@ -188,11 +188,15 @@ footer div{
   margin-top: 10px;
 }
 
-footer p, footer h3{
-  margin: 0;
+footer p{
+  margin: 0 10px;
 }
 
 /* classes */
+
+.bold {
+  font-weight: 900;
+}
 
 .social {
   display: flex;
