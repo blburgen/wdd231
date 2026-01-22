@@ -111,6 +111,12 @@ section{
 
 /* classes */
 
+.hero {
+  min-width: 360px;
+  width: 100%;
+  height: auto;
+}
+
 .menu{
   display: flex;
   gap: 10px;

@@ -6,6 +6,7 @@
     }
 
     main{
+        float: none;
         border-top: solid 1px var(--gray-d);
     }
 
