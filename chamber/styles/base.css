@@ -16,7 +16,7 @@
   box-sizing: border-box;
 }
 
-/* -----header----- */
+/* -------------------------------header------------------------------- */
 /* elements */
 
 header {
@@ -60,7 +60,7 @@ header span{
   content: "\00D7";
 }
 
-/* -----navigation----- */
+/* -------------------------------navigation------------------------------- */
 /* elements */
 
 /* classes */
@@ -97,7 +97,7 @@ header span{
   background-color: var(--gray-f0);
 }
 
-/* -----main----- */
+/* -------------------------------main------------------------------- */
 /* elements */
 
 h1, section p{
@@ -112,9 +112,19 @@ section{
 /* classes */
 
 .hero {
+  position: relative;
   min-width: 360px;
+}
+
+.hero img{
   width: 100%;
   height: auto;
+}
+
+.action {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
 }
 
 .menu{
@@ -181,7 +191,7 @@ section{
   background-color: var(--gray-c);
 }
 
-/* -----footer----- */
+/* -------------------------------footer------------------------------- */
 /* elements */
 
 footer{
