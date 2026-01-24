@@ -42,10 +42,12 @@ function displayResults(data) {
     const humidity = document.createElement('p');
     const sunrise = document.createElement('p');
     const sunset = document.createElement('p');
+    const weatherIconImage = document.createElement('img');
     const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
     let desc = data.weather[0].description;
-    weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', desc);
+    weatherIconImage.setAttribute('src', iconsrc);
+    weatherIconImage.setAttribute('alt', desc);
+    weatherIcon.appendChild(weatherIconImage);
 
     temp.textContent = `${data.main.temp}°F`;
     imagedesc.textContent = data.weather[0].description;
