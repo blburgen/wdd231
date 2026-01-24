@@ -8,7 +8,7 @@
             "company_phone_number": "(208) 478-3300",
             "company_website": "iccu.com",
             "imageurl": "images/ICCU-logo.png",
-            "membership_level": 1
+            "membership_level": 2
         },
         {
             "company_name": "Mountain View Hospital",
@@ -18,7 +18,7 @@
             "company_phone_number": "(208) 557-2700",
             "company_website": "mountainviewhospital.org",
             "imageurl": "images/mountain-view-logo.png",
-            "membership_level": 1
+            "membership_level": 3
         },
         {
             "company_name": "Idaho Falls Community Hospital",
@@ -28,7 +28,7 @@
             "company_phone_number": "(208) 528-1000",
             "company_website": "idahofallscommunityhospital.com",
             "imageurl": "images/ifhospital-logo.png",
-            "membership_level": 1
+            "membership_level": 3
         },
         {
             "company_name": "Select Health",
@@ -58,7 +58,7 @@
             "company_phone_number": "(208) 524-3000",
             "company_website": "cei.edu",
             "imageurl": "images/cei-logo.png",
-            "membership_level": 1
+            "membership_level": 2
         },
         {
             "company_name": "East Idaho News",
@@ -68,7 +68,7 @@
             "company_phone_number": " (208) 528-6397",
             "company_website": "eastidahonews.com",
             "imageurl": "images/eastidahonews-logo.png",
-            "membership_level": 1
+            "membership_level": 3
         }
     ]
 }

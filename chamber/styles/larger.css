@@ -31,6 +31,14 @@
         border-top: solid 1px var(--gray-d);
     }
 
+    .eighty, .grid_four, #business_highlight{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
     .grid {
         grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     }
@@ -41,8 +49,20 @@
         max-width: 400px;
     }
 
+    .grid_four {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
+    .grid_four section {
+       min-width: 200px;
+    }
+
+    #business_highlight section{
+        width: 320px;
+    }
+
     .list section {
-    grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     /* -------------------------------footer------------------------------- */

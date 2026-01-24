@@ -28,6 +28,8 @@
     <!-- Script Sheets -->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/gethighlights.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 
 </head>
 <body>
@@ -47,12 +49,34 @@
     <main>
         <div class="hero">
             <img src="./images/hero.jpg" alt="painting from idaho falls">
-            <button class="action" title="Call to action">Join Us</button>
+            <a class="action" title="Call to action" href="#">Join Us</a>
         </div>
-        <h1>
+        <h1 class="eighty">
             Home
         </h1>
-        
+        <div class="grid_four">
+            <section class="events">
+                <h2>Events</h2>
+                <h3>Time to go</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci eaque maxime quibusdam asperiores esse, praesentium neque voluptates nam expedita, sit inventore ab accusamus in dolores amet provident! Asperiores, dolorum?</p>
+            </section>
+            <section class="current_weather">
+                <h2>Current Weather</h2>
+                <div>
+                    <figure>
+                        <img id="weather-icon" src="" alt="">
+                    </figure>
+                    <div id="current-weather">   
+                    </div>
+                </div>
+            </section>
+            <section class="forecast">
+                <h2>Weather Forecast</h2>
+            </section>
+        </div>
+        <div id="business_highlight" class="grid">
+
+        </div> 
     </main>
     <footer>
         <div>
