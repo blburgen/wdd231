@@ -39,6 +39,7 @@ const displayMembers = (members) => {
         let tag_line = document.createElement('p');
         let email = document.createElement('p');
         let phone_number = document.createElement('p');
+        let level = document.createElement('p');
         let website = document.createElement('a');
         let image = document.createElement('img');
 
@@ -60,13 +61,19 @@ const displayMembers = (members) => {
         image.setAttribute('width', '340');
         image.setAttribute('height', 'auto');
 
+        if(member.membership_level == 2){
+            level.textContent = "Silver Member"
+        } else if (member.membership_level == 3){
+            level.textContent = "Gold Member"
+        }
+
         card.appendChild(name);
         card.appendChild(tag_line);
         card.appendChild(image);
         card.appendChild(email);
         card.appendChild(phone_number);
+        card.appendChild(level);
         card.appendChild(website);
-
         cards.appendChild(card);
 
     });
