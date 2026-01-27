@@ -124,6 +124,28 @@ main img{
   padding-bottom: 20px;
 }
 
+dialog {
+  border: 1px solid rgb(0 0 0 / 10%);
+  border-radius: .25rem;
+  padding: 1rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 3rem rgb(119, 119, 119);
+  width: 90%;
+  max-width: 600px;
+}
+
+::backdrop {
+  background-color: rgb(0 0 0 / 50%);
+}
+
+dialog button {
+  position: absolute;
+  top: 23px;
+  right: 23px;
+  padding: .5rem 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+}
+
 /* classes */
 
 .about {
@@ -175,6 +197,12 @@ main img{
   background-color: var(--secondary-color);
   font-size: larger;
   font-weight: 1000;
+  cursor: pointer;
+}
+
+.result .button:hover {
+  background-color: var(--primary-color);
+  color: var(--gray-f0);
 }
 
 .result .done {

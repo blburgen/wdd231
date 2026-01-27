@@ -83,6 +83,7 @@ const cse = document.querySelector("#cse");
 const wdd = document.querySelector("#wdd");
 const result = document.querySelector("#result");
 const totalcredits = document.querySelector("#totalcredits");
+const courseDetails = document.querySelector("#course-details");
 let credits = 0;
 displayCourses(courses);
 
@@ -99,8 +100,13 @@ function displayCourses(filteredList){
         else{
             button.textContent = item.subject + " " + item.number;
         }
+        button.addEventListener('click', () => {
+            displayCourseDetails(item);
+        });
         button.classList.add('button');
         result.appendChild(button);
+
+        
     });
     // result.innerHTML = toInsert;
     totalcredits.textContent = credits;
@@ -118,3 +124,23 @@ wdd.addEventListener("click", ()=>{
     sortedList = courses.filter(item => item.subject == "WDD");
     displayCourses(sortedList);
 })
+
+
+
+function displayCourseDetails(course) {
+  courseDetails.innerHTML = '';
+  courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+  `;
+  courseDetails.showModal();
+  
+  closeModal.addEventListener("click", () => {
+    courseDetails.close();
+  });
+}
