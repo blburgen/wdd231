@@ -9,9 +9,9 @@
     <link rel="icon" href="images/favicon.ico">
 
     <!-- facebook meta tags -->
-    <meta property="og:title" content="Chamber of Commerce Directory">
-    <meta property="og:description" content="A chamber of commerce directory page for Idaho Falls for the course WDD231 from BYUI.">
-    <meta property="og:url" content="https://blburgen.github.io/wdd231/chamber/directory.html">
+    <meta property="og:title" content="Chamber of Commerce for Idaho Falls">
+    <meta property="og:description" content="A chamber of commerce landing page for Idaho Falls for the course WDD231 from BYUI.">
+    <meta property="og:url" content="https://blburgen.github.io/wdd231/chamber/">
     <meta property="og:locale" content="en_US">
     <meta property="og:image" content="https://blburgen.github.io/wdd231/chamber/images/facebook_image.png">
 
@@ -28,9 +28,8 @@
     <!-- Script Sheets -->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
-    <script src="scripts/getmembers.js" defer></script>
-    <script src="scripts/grid.js" defer></script>
-
+    <script src="scripts/gethighlights.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
 
 </head>
 <body>
@@ -41,21 +40,14 @@
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li><a href="./">Home</a></li>
-            <li class="current"><a href="directory.html">Directory</a></li>
-            <li><a href="join.html">Join</a></li>
+            <li ><a href=".">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="current"><a href="join.html">Join</a></li>
             <li><a href="#">Discover</a></li>
         </ul>
     </nav>
     <main>
-        <h1>
-            Directory
-        </h1>
-        <div class="menu">
-		    <button id="grid">Grid</button>
-		    <button id="list">List</button>
-	    </div>
-        <div id="cards" class="grid"></div>
+        
     </main>
     <footer>
         <div>
