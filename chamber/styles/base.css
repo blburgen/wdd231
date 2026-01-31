@@ -397,6 +397,7 @@ form button {
   color: var(--primary-color);
   margin: 10px;
   text-align: center;
+  
 }
 
 #level div {
@@ -406,4 +407,14 @@ form button {
   margin-top: 10px;
   padding: 10px;
   border-radius: 0 1rem;
+  animation: fadeColor 2s ease-in-out;
+}
+
+@keyframes fadeColor {
+  from{
+    background-color: var(--secondary-color);
+  }
+  to {
+    background-color: var(--gray-c);
+  }
 }
