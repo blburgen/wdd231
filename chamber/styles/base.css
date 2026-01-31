@@ -3,6 +3,7 @@
   --secondary-color: rgb(5, 100, 5);
   --third-color: rgb(220, 247, 252);
   --fourth-color: rgb(200, 255, 200);
+  --required-color: rgb(255, 0, 0);
   
   --gray-f0: rgb(240, 240, 240);
   --gray-e: rgb(238, 238, 238);
@@ -311,3 +312,96 @@ footer p{
   font-style: normal;
 }
 
+/* -------------------------------Form------------------------------- */
+
+form {
+  color: var(--primary-color);
+  margin: 10px;
+}
+
+form h2{
+  text-align: center;
+}
+
+form input, form textarea{
+  font-size: 16px;
+  padding: 5px;
+  border-left-width: 5px;
+}
+
+form input:required{
+  border-left-color: var(--required-color);
+}
+
+form > div {
+  display: grid;
+  margin-top: 15px;
+}
+
+input[type='radio'] {
+  margin-top: 10px;
+  transform: scale(1.5);
+}
+
+form button {
+  display: block;
+  font-size: 16pt;
+  padding: 10px;
+  border-radius: .5rem;
+  margin: auto;
+}
+
+/* -------------------------------modals------------------------------- */
+
+#mydialog {
+    padding: 0;
+    border-radius: 1rem;
+    box-shadow: 0 0 3rem #777;
+    width: 90%;
+}
+
+#mydialog div {
+    display: grid;
+    grid-template-columns: auto 44px;
+    background-color: #ddd;
+    padding: 5px;
+    border-bottom: #aaa 1px solid;
+}
+
+#mydialog h2 {
+    margin: 0;
+    color: #275690;
+}
+
+#mydialog button{
+    margin: 0;
+    border: 1px solid rgba(0, 0, 0,0.3);
+    border-radius: 5px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+#mydialog p {
+    padding:10px;
+    color: #375170;
+}
+
+::backdrop{
+    background-color: rgba(255, 255, 255,.75);
+}
+
+/* -------------------------------membership------------------------------- */
+
+#membership {
+  color: var(--primary-color);
+  margin: 10px;
+  text-align: center;
+}
+
+#membership div {
+  color: var(--primary-color);
+  background-color: var(--gray-c);
+  border: 1px solid var(--primary-color);
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 0 1rem;
+}
