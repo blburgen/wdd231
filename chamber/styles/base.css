@@ -340,7 +340,7 @@ form > div {
 }
 
 input[type='radio'] {
-  margin-top: 5px;
+  margin-top: 10px;
   transform: scale(1.5);
 }
 
