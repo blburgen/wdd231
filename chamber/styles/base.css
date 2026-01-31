@@ -391,13 +391,13 @@ form button {
 
 /* -------------------------------membership------------------------------- */
 
-#membership {
+#level {
   color: var(--primary-color);
   margin: 10px;
   text-align: center;
 }
 
-#membership div {
+#level div {
   color: var(--primary-color);
   background-color: var(--gray-c);
   border: 1px solid var(--primary-color);

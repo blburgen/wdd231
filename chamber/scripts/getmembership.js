@@ -37,7 +37,7 @@ const levels = [
 
 ];
 
-const membership = document.querySelector("#membership");
+const membership = document.querySelector("#level");
 
 const mydialog = document.querySelector("#mydialog");
 const mytitle = document.querySelector("#mydialog h2");
