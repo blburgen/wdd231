@@ -371,7 +371,7 @@ form button {
 
 #mydialog h2 {
     margin: 0;
-    color: rgb(39, 86, 144);
+    color: var(--primary-color);
 }
 
 #mydialog button{
