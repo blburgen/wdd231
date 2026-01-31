@@ -36,7 +36,7 @@ const levels = [
 
 
 ];
-
+const timestamp = document.getElementById("timestamp")
 const membership = document.querySelector("#level");
 
 const mydialog = document.querySelector("#mydialog");
@@ -78,3 +78,6 @@ function showStuff(x){
     myinfo.innerHTML = `Cost:${x.fee} <br> ${x.benifits}`;
     mydialog.showModal();
 }
+
+const loadtime = Date.now();
+timestamp.value = loadtime;
