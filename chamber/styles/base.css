@@ -9,6 +9,7 @@
   --gray-e: rgb(238, 238, 238);
   --gray-c: rgb(204, 204, 204);
   --gray-d: rgb(158, 158, 158);
+  --gray-a: rgb(170, 170, 170);
   
 }
 
@@ -356,33 +357,33 @@ form button {
 #mydialog {
     padding: 0;
     border-radius: 1rem;
-    box-shadow: 0 0 3rem #777;
+    box-shadow: 0 0 3rem rgb(119, 119, 119);
     width: 90%;
 }
 
 #mydialog div {
     display: grid;
     grid-template-columns: auto 44px;
-    background-color: #ddd;
+    background-color: var(--gray-d);
     padding: 5px;
-    border-bottom: #aaa 1px solid;
+    border-bottom: var(--gray-a) 1px solid;
 }
 
 #mydialog h2 {
     margin: 0;
-    color: #275690;
+    color: rgb(39, 86, 144);
 }
 
 #mydialog button{
     margin: 0;
     border: 1px solid rgba(0, 0, 0,0.3);
     border-radius: 5px;
-    box-shadow: 0 0 10px #aaa;
+    box-shadow: 0 0 10px var(--gray-a);
 }
 
 #mydialog p {
     padding:10px;
-    color: #375170;
+    color: rgb(55, 81, 112);
 }
 
 ::backdrop{
