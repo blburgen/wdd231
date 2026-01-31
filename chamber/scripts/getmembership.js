@@ -1,4 +1,4 @@
-const member_levels = [
+const levels = [
     {
         "membership_name": "np",
         "name": "Non Profit Membership Level",
@@ -49,6 +49,9 @@ myclose.addEventListener("click", () => mydialog.close());
 
 function displayItems(data){
     console.log(data);
+    const h2 = document.createElement('h2');
+    h2.innerText = "Membership Levels";
+    membership.appendChild(h2);
     data.forEach(element => {
         console.log(element);
         const div = document.createElement('div');
@@ -68,7 +71,7 @@ function displayItems(data){
 
 }
 
-displayItems(member_levels);
+displayItems(levels);
 
 function showStuff(x){
     mytitle.innerHTML = x.name;
