@@ -328,7 +328,7 @@ form h2{
   text-align: center;
 }
 
-form input, form textarea{
+form input, form textarea, form select{
   font-size: 16px;
   padding: 5px;
   border-left-width: 5px;
