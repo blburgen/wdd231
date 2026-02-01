@@ -343,10 +343,10 @@ form > div {
   margin-top: 15px;
 }
 
-/* input[type='radio'] {
+input[type='radio'] {
   margin-top: 10px;
   transform: scale(1.5);
-} */
+}
 
 
 form button {
