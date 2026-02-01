@@ -44,6 +44,8 @@ const mytitle = document.querySelector("#mydialog h2");
 const myclose = document.querySelector("#mydialog button");
 const myinfo = document.querySelector("#mydialog p");
 
+const loadtime = Date.now();
+timestamp.value = loadtime;
 myclose.addEventListener("click", () => mydialog.close());
 
 
@@ -79,5 +81,3 @@ function showStuff(x){
     mydialog.showModal();
 }
 
-const loadtime = Date.now();
-timestamp.value = loadtime;
