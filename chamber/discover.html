@@ -28,7 +28,7 @@
     <!-- Script Sheets -->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
-    <script src="scripts/thankyou.js" defer></script>
+    <script type="module" src="scripts/placeinterest.js"></script>
 
 </head>
 <body>
@@ -41,17 +41,21 @@
         <ul>
             <li ><a href=".">Home</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li class="current"><a href="join.html">Join</a></li>
-            <li><a href="discover.html">Discover</a></li>
+            <li ><a href="join.html">Join</a></li>
+            <li class="current"><a href="discover.html">Discover</a></li>
         </ul>
     </nav>
     <main>
         <h1>
-            Thank You
+            Discover
         </h1>
-        <div id="thankyou">
+        <section>
+            Locate and resize a photo for each item of interest. Photos should be around 300px wide by 200px tall and saved using the webp format
+            Create or find a name, address, and description for each of the 8 items of interest in your area.
+            Store this information in a JSON formatted file with a .mjs extension in the "data" folder of your site. Remember to include an export statement.
+        </section>
+        <div id="lastvisit"></div>
 
-        </div>
     </main>
     <footer>
         <div>
