@@ -14,6 +14,7 @@
 *{
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  color: var(--primary-color);
 }
 
 /* -----header----- */
@@ -97,124 +98,51 @@ header span{
 
 /* -----main----- */
 /* elements */
-
-h1, section p{
-  margin-left: 10px;
-  margin-right: 10px;
+ul{
+  list-style-type: none;
 }
 
-section{
-  background-color: var(--gray-f0);
-}
-
-h2{
-  color: var(--primary-color);
-  text-align: center;
-  background-color: var(--gray-c);
-  padding-top: 20px;
-  padding-bottom:20px
-}
-
-main img{
-  display: block;
-  width: 200px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 20px;
-}
-
-dialog {
-  border: 1px solid rgb(0 0 0 / 10%);
-  border-radius: .25rem;
-  padding: 1rem;
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 0 3rem rgb(119, 119, 119);
-  width: 90%;
-  max-width: 600px;
-}
-
-::backdrop {
-  background-color: rgb(0 0 0 / 50%);
-}
-
-dialog button {
-  position: absolute;
-  top: 23px;
-  right: 23px;
-  padding: .5rem 1rem;
-  border: 1px solid rgb(0 0 0 / 10%);
-}
 
 /* classes */
 
-.about {
-  padding-bottom: 8px;
-}
 
-.sort, .result{
-  display: grid;
-  gap: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
-.sort{
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.result{
-  grid-template-columns: 1fr;
-}
-
-.sort div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 44px;
-  border-radius: .5rem;
-  border: solid 1px var(--primary-color);
-  border-color: var(--primary-color);
+/* ids */
+#primary {
   color: var(--primary-color);
-  font-size: larger;
-  font-weight: 1000;
 }
 
-.sort div:hover{
-  background-color: var(--gray-c);
-  cursor: pointer;
+#secondary {
+  color: var(--secondary-color);
 }
 
-.result .button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 44px;
-  border: solid 1px var(--primary-color);
-  border-radius: .5rem;
+#third {
+  color: var(--third-color);
+  background-color: black;
+}
+
+#fourth {
+  color: var(--fourth-color);
+  background-color: black;
+}
+
+#gray-f0 {
   color: var(--gray-f0);
-  background-color: var(--secondary-color);
-  font-size: larger;
-  font-weight: 1000;
-  cursor: pointer;
+  background-color: black;
 }
 
-.result .button:hover {
-  background-color: var(--primary-color);
-  color: var(--gray-f0);
+#gray-e {
+  color: var(--gray-e);
+  background-color: black;
 }
 
-.result .done {
-  color: var(--primary-color);
-  background-color: var(--fourth-color);
+#gray-c {
+  color: var(--gray-c);
+  background-color: black;
 }
 
-.certificate p{
-
-  text-align: center;  
+#gray-d {
+  color: var(--gray-d);
 }
-
 /* -----footer----- */
 /* elements */
 
