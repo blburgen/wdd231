@@ -9,15 +9,15 @@
   --gray-c: rgb(204, 204, 204);
   --gray-d: rgb(158, 158, 158);
 
-  --black: rgb(0,0,0,);
+  --black: rgb(0,0,0);
   --white: rgb(255,255,255);
-  
 }
 
 *{
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   box-sizing: border-box;
   color: var(--primary-color);
+  background-color: var(--white);
 }
 
 /* -----header----- */
