@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Idaho Falls Chamber of Commerce | WDD 231 home page | Brady Burgener</title>
+    <meta name="description" content="Join page for the chamber of commerce for Idaho Falls for the course WDD231 from BYUI.">
+    <meta name="author" content="Brady Burgener">
+    <link rel="icon" href="../images/favicon.ico">
+
+    <!-- facebook meta tags -->
+    <meta property="og:title" content="Join page for the Chamber of Commerce for Idaho Falls">
+    <meta property="og:description" content="A chamber of commerce join page for Idaho Falls for the course WDD231 from BYUI.">
+    <meta property="og:url" content="https://blburgen.github.io/wdd231/chamber/join.html">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="https://blburgen.github.io/wdd231/chamber/images/facebook_image2.png">
+
+    <!-- text families -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Yarndings+20&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    
+    <!-- Script Sheets -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/getmembership.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <img src="../images/logo.svg" alt="site logo" width="1" height="1">
+        <span>Burgener Oil Painting</span>
+        <button id="nav-button" class="hamburger" title="hamburger button"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="art.html">Art</a></li>
+            <li><a href="materials.html">Materials</a></li>
+            <li class="current"><a href="questions.html">Questions</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Questions</h1>
+        <div id="formgrid">
+            <form method="get" action="thankyou.html">
+                <h2>Questions Or Suggestions Form</h2>
+                <div>
+                    <label for="fname">First Name:</label>
+                    <input type="text" name="fname" id="fname" title="first name" autocomplete="given-name" required>
+                </div>
+                <div>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" name="lname" id="lname" title="last name" autocomplete="family-name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" title="email address" autocomplete="email" placeholder="abc@gmail.com" required>
+                </div>
+                <div>
+                    <label for="tel">Mobile Phone Number:</label>
+                    <input type="tel" name="tel" id="tel" title="mobile phone number" autocomplete="tel" required>
+                </div>
+                <div>
+                    <label for="o-desc">Question or Suggestion:</label>
+                    <textarea name="o-desc" id="o-desc" title="business/organization's description"></textarea>
+                </div>
+                <div>
+                    <input type="hidden" name="timestamp" id="timestamp" value=" ">
+                </div>
+                <button type="submit">Ask Away</button>
+            </form>
+            <div id="level">
+            </div>
+        </div>
+        <dialog id="mydialog">
+            <div>
+                <h2>Sample Title</h2>
+                <button>X</button>
+            </div>
+            <p></p>
+        </dialog>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/blburgen" target="_blank"><img src="../images/github.svg" alt="github logo" width="16" height="16"></a>
+            <a href="https://www.linkedin.com/in/brady-burgener/" target="_blank"><img src="../images/linkedin.svg" alt="linkedin logo" width="16" height="16"></a>
+            <a href="https://www.youtube.com/@BradyLB" target="_blank"><img src="../images/youtube.svg" alt="youtube logo" width="16" height="16"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="../images/facebook.svg" alt="facebook logo" width="16" height="16"></a>
+        </div>
+        <p>&copy;<span id="currentyear"></span> <span class="yarndings">a</span> Brady Burgener <span class="yarndings">a</span> Idaho, USA</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

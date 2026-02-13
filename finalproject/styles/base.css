@@ -8,6 +8,9 @@
   --gray-e: rgb(238, 238, 238);
   --gray-c: rgb(204, 204, 204);
   --gray-d: rgb(158, 158, 158);
+
+  --black: rgb(0,0,0,);
+  --white: rgb(255,255,255);
   
 }
 
@@ -122,32 +125,32 @@ img{
 
 #third {
   color: var(--third-color);
-  background-color: black;
+  background-color: var(--black);
 }
 
 #fourth {
   color: var(--fourth-color);
-  background-color: black;
+  background-color: var(--black);
 }
 
 #gray-f0 {
   color: var(--gray-f0);
-  background-color: black;
+  background-color: var(--black);
 }
 
 #gray-e {
   color: var(--gray-e);
-  background-color: black;
+  background-color: var(--black);
 }
 
 #gray-c {
   color: var(--gray-c);
-  background-color: black;
+  background-color: var(--black);
 }
 
 #gray-d {
   color: var(--gray-d);
-  background-color: black;
+  background-color: var(--black);
 }
 /* -----footer----- */
 /* elements */
