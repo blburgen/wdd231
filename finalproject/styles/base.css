@@ -11,6 +11,7 @@
 
   --black: rgb(0,0,0);
   --white: rgb(255,255,255);
+  --white-a: rgba(255,255,255,.5);
 }
 
 *{
@@ -125,6 +126,21 @@ img{
   width: 100%;
   height: auto;
 }
+
+.hero .message{
+  display: block;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom:50%;
+  font-size: larger;
+}
+
+.hero span{
+  background-color: var(--white-a);
+
+}
+
 .hero .action{
   position: absolute;
   bottom: 30px;

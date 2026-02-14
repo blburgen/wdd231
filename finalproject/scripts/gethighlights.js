@@ -1,7 +1,7 @@
 import { showStuff } from "./modal.mjs";
 const url = './data/paintings.json';
 
-const cards = document.querySelector('#cards');
+const highlight = document.querySelector('#cards');
 
 async function getmembers() {
     const response = await fetch(url);
@@ -11,10 +11,16 @@ async function getmembers() {
 }
 
 const displayArt = (paintings) => {
-    paintings.forEach((painting) => {
+    let numbers = [];
+    while(numbers.length < 3){
+        let number = Math.floor(Math.random() * paintings.length);
+        while(numbers.includes(number)){
+            number = Math.floor(Math.random() * paintings.length);
+        }
+        numbers.push(number);
+        let painting = paintings[number];
         let card = document.createElement('section');
         let name = document.createElement('h2');
-        let size = document.createElement('p');
         let image = document.createElement('img');
         let learn = document.createElement('button');
 
@@ -23,13 +29,10 @@ const displayArt = (paintings) => {
         name.textContent = painting.paintingName;
         name.setAttribute('class', 'painting_name');
 
-        size.textContent = `Dimensions(height x width): ${painting.height}in x ${painting.width}in`;
-        size.setAttribute('class', 'painting_dimensions');
-
         image.setAttribute('src', painting.imageUrl);
         image.setAttribute('alt', `photo of ${painting.name}`);
         image.setAttribute('loading', 'lazy');
-        image.setAttribute('width', '260');
+        image.setAttribute('width', 'auto');
         image.setAttribute('height', 'auto');
         learn.setAttribute('class', 'painting_image');
 
@@ -38,13 +41,12 @@ const displayArt = (paintings) => {
         learn.addEventListener("click", () => showStuff(painting));
 
         card.appendChild(name);
-        card.appendChild(size);
         card.appendChild(image);
         card.appendChild(learn);
 
-        cards.appendChild(card);
-
-    });
+        highlight.appendChild(card);
+    }
+    
 }
 
 getmembers();

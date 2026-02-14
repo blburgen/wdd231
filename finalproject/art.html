@@ -28,7 +28,7 @@
     <!-- Script Sheets -->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
-    <script src="scripts/getpaintings.js" defer></script>
+    <script src="scripts/getpaintings.js" type="module"></script>
 </head>
 
 <body>
@@ -50,6 +50,13 @@
         <div id="cards">
             
         </div>
+        <dialog id="mydialog">
+            <div>
+                <h2>Sample Title</h2>
+                <button title="close">Close</button>
+            </div>
+            <p></p>
+        </dialog>
     </main>
     <footer>
         <div class="social">

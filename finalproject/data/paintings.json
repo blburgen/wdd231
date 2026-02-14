@@ -89,6 +89,17 @@
             "imageUrl": "./images/fire_within.webp"
         },
         {
+            "paintingName": "Grape Eating Dog",
+            "year": "2022",
+            "width": 16,
+            "height": 20,
+            "medium": "Oil Paint",
+            "artist": "Brady Burgener",
+            "descr": "Dogs have been known to eat some strange things. This little guy loves himself some grapes.",
+            "price": "$640.00",
+            "imageUrl": "./images/grape_eating.webp"
+        },
+        {
             "paintingName": "Hide and Seek",
             "year": "2022",
             "width": 36,
@@ -111,6 +122,28 @@
             "imageUrl": "./images/hunting_dog.webp"
         },
         {
+            "paintingName": "Iris",
+            "year": "2022",
+            "width": 9,
+            "height": 12,
+            "medium": "Mixed Media ( Acrylic Ink, Acrylic Paint, Oil Paint) on Watercolor Paper",
+            "artist": "Brady Burgener",
+            "descr": "An iris flower against an abstract background.",
+            "price": "$110.00",
+            "imageUrl": "./images/iris.webp"
+        },
+        {
+            "paintingName": "Lily",
+            "year": "2022",
+            "width": 9,
+            "height": 12,
+            "medium": "Mixed Media ( Acrylic Ink, Acrylic Paint, Oil Paint) on Watercolor Paper",
+            "artist": "Brady Burgener",
+            "descr": "Consider the lilies as they grow and speak of the birth from the ground. This white lily is placed against an abstract background.",
+            "price": "$110.00",
+            "imageUrl": "./images/lily.webp"
+        },
+        {
             "paintingName": "Nectar Source",
             "year": "2022",
             "width": 18,
@@ -120,6 +153,18 @@
             "descr": "Water towers are often used to collect stores of water. What if instead of collecting water, it were to collect nectar. In this image we explore the possibility of a Nectar Source.",
             "price": "$870.00",
             "imageUrl": "./images/nectar_source.webp"
+        },
+        {
+            "paintingName": "Powering Through",
+            "year": "2022",
+            "width": 36,
+            "height": 24,
+            "medium": "Oil Paint",
+            "artist": "Brady Burgener",
+            "descr": "This hand is powering through the poppy flowers that are holding it back. At times we need to break through the flower and weed that are holding us back to get where we need to be.",
+            "price": "$1500.00",
+            "imageUrl": "./images/powering_through.webp"
         }
+        
     ]
 }

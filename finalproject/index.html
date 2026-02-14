@@ -28,6 +28,7 @@
     <!-- Script Sheets -->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/gethighlights.js" type="module"></script>
 </head>
 
 <body>
@@ -49,10 +50,19 @@
         <div class="hero">
             <img src="./images/hide_seek_hero.webp" alt="Hide and Seek Painting by Brady Burgener">
             <a class="action" title="Call to action" href="art.html">See Art</a>
+            <p class="message"><span>Through Knowledge we can</span><br><span>Seek for the value within.</span></p>
         </div>
-        <section>
-            <h2>Highlights</h2>
-        </section>
+        <h2>Highlights</h2>
+        <div id="cards">
+            
+        </div>
+        <dialog id="mydialog">
+            <div>
+                <h2>Sample Title</h2>
+                <button title="close">Close</button>
+            </div>
+            <p></p>
+        </dialog>
     </main>
     <footer>
         <div class="social">
