@@ -13,19 +13,32 @@ const displayArt = (paintings) => {
     paintings.forEach((painting) => {
         let card = document.createElement('section');
         let name = document.createElement('h2');
+        let size = document.createElement('p');
         let image = document.createElement('img');
+        let learn = document.createElement('button');
+
+        card.setAttribute('class', 'painting_card');
 
         name.textContent = painting.paintingName;
-        name.setAttribute('class', 'name');
+        name.setAttribute('class', 'painting_name');
+
+        size.textContent = `Dimensions(height x width): ${painting.height}in x ${painting.width}in`;
+        size.setAttribute('class', 'painting_dimensions');
 
         image.setAttribute('src', painting.imageUrl);
         image.setAttribute('alt', `photo of ${painting.name}`);
         image.setAttribute('loading', 'lazy');
-        image.setAttribute('width', '340');
+        image.setAttribute('width', '260');
         image.setAttribute('height', 'auto');
+        learn.setAttribute('class', 'painting_image');
+
+        learn.textContent = "Learn More";
+        learn.setAttribute('class', 'learn_more');
 
         card.appendChild(name);
+        card.appendChild(size);
         card.appendChild(image);
+        card.appendChild(learn);
 
         cards.appendChild(card);
 

@@ -1,13 +1,24 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 700px) {
     header, main, nav, footer {
         max-width: 900px;
         margin: 0 auto;
     }
+
+    /* ---------------header--------------- */
+    /* elements */
     
     header{
         grid-template-columns: 24px auto;
     }
 
+    /* --------------navigation-------------- */
+    /* elements */
+    
+    li {
+		flex: 100%;
+	}
+
+    /* classes */
     
     .hamburger{
         display: none;
@@ -25,10 +36,22 @@
         border: none;
     }
 
-    li {
-		flex: 100%;
-	}
+    /*-------- main ---------*/
+    /* ids */
+    #cards {
+        grid-template-columns: auto auto;
+    }
 
 
+}
 
+@media only screen and (min-width: 1000px) {
+    header, main, nav, footer {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    #cards {
+        grid-template-columns: auto auto auto;
+    }
 }

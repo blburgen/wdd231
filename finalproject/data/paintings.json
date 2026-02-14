@@ -8,7 +8,8 @@
             "medium": "Mixed Media/Oil Paint",
             "artist": "Brady Burgener",
             "descr": "All creatures (from the great blue whale down to the tiny ant) on this earth have to work to live. These tiny ants are working around their home.",
-            "imageUrl": "./images/ant_hill.jpg"
+            "price": "$640.00",
+            "imageUrl": "./images/ant_hill.webp"
         },
         {
             "paintingName": "Apple Blossom",
@@ -18,7 +19,8 @@
             "medium": "Mixed Media ( Water Soluble Pastels, Acrylic Ink, Acrylic Paint, Oil Paint) on Watercolor Paper",
             "artist": "Brady Burgener",
             "descr": "With Springs comes the apple blossoms.",
-            "imageUrl": "./images/apple_blossom.jpg"
+            "price": " $440.00",
+            "imageUrl": "./images/apple_blossom.webp"
         },
         {
             "paintingName": "At the Farm",
@@ -28,7 +30,8 @@
             "medium": "Oil Paint",
             "artist": "Brady Burgener",
             "descr": "The ants are busy at their farm. They have a lot of work to do and don't have time to stop and talk to us.",
-            "imageUrl": "./images/at_the_farm.jpg"
+            "price": "$1500.00",
+            "imageUrl": "./images/at_the_farm.webp"
         },
         {
             "paintingName": "Beauty Through the Heart",
@@ -38,7 +41,8 @@
             "medium": "Mixed Media/Oil Paint on Wood",
             "artist": "Brady Burgener",
             "descr": "Even the most gental flower can have a dark side.",
-            "imageUrl": "./images/beauty_heart.jpg"
+            "price": "$210.00",
+            "imageUrl": "./images/beauty_heart.webp"
         },
         {
             "paintingName": "Black Rose",
@@ -48,7 +52,8 @@
             "medium": "Oil Paint",
             "artist": "Brady Burgener",
             "descr": "The colors dance around this black rose.",
-            "imageUrl": "./images/black_rose.jpg"
+            "price": "$640.00",
+            "imageUrl": "./images/black_rose.webp"
         },
         {
             "paintingName": "Chrysanthemum",
@@ -58,7 +63,8 @@
             "medium": "Mixed Media ( Water Soluble Pastels, Acrylic Ink, Acrylic Paint, Oil Paint) on Watercolor Paper",
             "artist": "Brady Burgener",
             "descr": "During the summer we are given the privilege of smelling the chrysanthemums. In this image we see a group of chrysanthemum flower and insects against an abstract background.",
-            "imageUrl": "./images/chrysanthemum.jpg"
+            "price": "$440.00",
+            "imageUrl": "./images/chrysanthemum.webp"
         },
         {
             "paintingName": "Dancing Girl",
@@ -68,7 +74,8 @@
             "medium": "Mixed Media ( Water Soluble Pastels, Acrylic Ink, Acrylic Paint, Oil Paint) on Watercolor Paper",
             "artist": "Brady Burgener",
             "descr": "If we listen to the songs in our heart, we will dance to it. In this image we see a girl dancing with a ribbon to the song in her heart.",
-            "imageUrl": "./images/dancing_girl.jpg"
+            "price": "$440.00",
+            "imageUrl": "./images/dancing_girl.webp"
         },
         {
             "paintingName": "Fire Within",
@@ -78,7 +85,30 @@
             "medium": "Watercolor on Watercolor Paper",
             "artist": "Brady Burgener",
             "descr": "As we watch the gental fire that lies within every living being.",
-            "imageUrl": "./images/fire_within.jpg"
+            "price": "$30.00",
+            "imageUrl": "./images/fire_within.webp"
+        },
+        {
+            "paintingName": "Hide and Seek",
+            "year": "2022",
+            "width": 36,
+            "height": 24,
+            "medium": "Oil Paint",
+            "artist": "Brady Burgener",
+            "descr": "This tiger is hunting us among the roses. Is this tiger opportunity that will bring us joy or wealth? Or is this tiger danger that is leering around the corner?",
+            "price": "$1500.00",
+            "imageUrl": "./images/hide_seek_small.webp"
+        },
+        {
+            "paintingName": "Hunting Dog",
+            "year": "2022",
+            "width": 20,
+            "height": 16,
+            "medium": "Oil Paint",
+            "artist": "Brady Burgener",
+            "descr": "Our brave hunting dog is ready to take our commands.",
+            "price": "$640.00",
+            "imageUrl": "./images/hunting_dog.webp"
         },
         {
             "paintingName": "Nectar Source",
@@ -88,7 +118,8 @@
             "medium": "Oil Paint",
             "artist": "Brady Burgener",
             "descr": "Water towers are often used to collect stores of water. What if instead of collecting water, it were to collect nectar. In this image we explore the possibility of a Nectar Source.",
-            "imageUrl": "./images/nectar_source.jpg"
+            "price": "$870.00",
+            "imageUrl": "./images/nectar_source.webp"
         }
     ]
 }
