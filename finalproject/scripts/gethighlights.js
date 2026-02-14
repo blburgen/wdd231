@@ -4,10 +4,15 @@ const url = './data/paintings.json';
 const highlight = document.querySelector('#cards');
 
 async function getmembers() {
-    const response = await fetch(url);
-    const data = await response.json();
-    console.log(data.paintings);
-    displayArt(data.paintings);
+    try {
+        const response = await fetch(url);
+        const data = await response.json();
+        console.log(data.paintings);
+        displayArt(data.paintings);
+    } catch (error) {
+        console.log(error);
+    }
+    
 }
 
 const displayArt = (paintings) => {
