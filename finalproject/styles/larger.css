@@ -37,7 +37,25 @@
     }
 
     /*-------- main ---------*/
+    .questions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .questions h1 {
+        grid-column: 1/3;
+    }
+    
     /* ids */
+    #formgrid{
+        margin: 10px;
+         grid-column: 1/2;
+    }
+    
+    #common_questions{
+        grid-column: 2/3;
+    }
+
     #cards {
         grid-template-columns: auto auto;
     }
