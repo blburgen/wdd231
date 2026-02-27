@@ -82,9 +82,12 @@ const courses = [
         title: 'Web Backend Development',
         credits: 3,
         certificate: 'Web Development',
-        description: '',
+        description: 'This programming course focuses on constructing dynamic web sites using server-side languages, making use of databases and design patterns. The concepts introduced in Web Frontend Development courses are expected to be continued and implemented.',
         technology: [
-            
+            'Node.js',
+            'Pnpm',
+            'SQL',
+            'HTML'
         ],
         completed: false
     },
@@ -94,9 +97,12 @@ const courses = [
         title: 'Web Services',
         credits: 3,
         certificate: 'Web Development',
-        description: '',
+        description: 'This course focuses on the backend development of dynamic, service-oriented web applications. Students will learn how to design and implement web services, how to interact with data storage, and how to use these tools to build functioning web application.',
         technology: [
-            
+            'Node.js',
+            'git',
+            'MongoDB',
+            'API'
         ],
         completed: false
     },
@@ -106,9 +112,9 @@ const courses = [
         title: 'Introduction to Databases',
         credits: 3,
         certificate: 'Web Development',
-        description: '',
+        description: 'This course covers the basic elements of database management systems. It introduces students to the concepts of logical and physical relationships in a data model and the concepts of inner and outer joins. Students will use a computer aided software engineering (CASE) tool to design, create, and query a database.',
         technology: [
-            
+            "MySQL"
         ],
         completed: true
     },
@@ -118,9 +124,13 @@ const courses = [
         title: 'Web Frontend Development II',
         credits: 3,
         certificate: 'Web Development',
-        description: '',
+        description: 'This course will continue with the topics presented in WDD 231 Web Front-end Development I: Building websites with HTML, CSS, and Javascript. This course will have a stronger emphasis on Javascript development and mobile design as students create mobile web applications.',
         technology: [
-            
+            'HTML',
+            'CSS',
+            'JavaScript',
+            'Git',
+            'API'
         ],
         completed: false
     },
@@ -130,9 +140,14 @@ const courses = [
         title: 'Web Full-Stack Development',
         credits: 3,
         certificate: 'Web Development',
-        description: '',
+        description: 'This course will teach you how to design and build interactive web based applications using HTML, CSS, JavaScript, and a web development stack.',
         technology: [
-            
+            'HTML',
+            'CSS',
+            'JavaScript',
+            'Typescript',
+            'React',
+            'Next.js'
         ],
         completed: false
     },
@@ -142,9 +157,11 @@ const courses = [
         title: 'Programming with Data Structures',
         credits: 2,
         certificate: 'Software Development',
-        description: '',
+        description: 'This course will introduce students to the common programming data structures with an emphasis on how to use them to solve practical, real-world problems.',
         technology: [
-            
+            'git',
+            'C#',
+            '.NET'
         ],
         completed: false
     },
@@ -154,9 +171,10 @@ const courses = [
         title: 'Software Testing',
         credits: 3,
         certificate: 'Software Development',
-        description: '',
+        description: 'Software Testing is a systematic process of verifying requirements and design elements, features, or standards against the implementation to increase product success. The verification process uses a set of test paths starting from the minor units up to the entire deliverable system using predetermined or live data to build confidence that the product works right (as specified). CSE 270 will explore testing standards, techniques, tools, and cases.',
         technology: [
-            
+            'Squash'
+
         ],
         completed: false
     },
@@ -166,9 +184,9 @@ const courses = [
         title: 'Professional Readiness',
         credits: 1,
         certificate: 'Software Development',
-        description: '',
+        description: 'This course will help prepare students to be professionals in their major by completing activities that will provide professional connections, confidence, and employability.',
         technology: [
-            
+            'N/A'
         ],
         completed: false
     },
@@ -178,9 +196,17 @@ const courses = [
         title: 'Applied Programming',
         credits: 3,
         certificate: 'Software Development',
-        description: '',
+        description: 'This course will teach students to work in teams on large projects using new technology on self-defined projects. The class will simulate real-word programming projects with the aim of producing workable solutions that have potential impact.',
         technology: [
-            
+            'C++',
+            'Java',
+            'Kotlin',
+            'R',
+            'Erlang',
+            'JavaScript',
+            'C#',
+            'TypeScript',
+            'Rust'
         ],
         completed: false
     },
@@ -190,9 +216,11 @@ const courses = [
         title: '.NET Software Development',
         credits: 3,
         certificate: 'Software Development',
-        description: '',
+        description: 'This course leverages a students fundamental software development and core web technology background with the Microsoft .NET framework with C# using the Visual Studio Integrated Development Environment. Students will build upon a C# foundation using the ASP.NET framework to design and develop scalable, standards-based web sites, applications, and services using contemporary methodologies and established design patterns. Team work and programming deliverables will be required.',
         technology: [
-            
+            'C#',
+            '.NET',
+            'Trello'
         ],
         completed: false
     },
@@ -202,9 +230,9 @@ const courses = [
         title: 'Software Engineering Principles',
         credits: 2,
         certificate: 'Software Development',
-        description: '',
+        description: 'Students learn to analyze and make decisions in software projects through all phases of the software development lifecycle, including requirements elicitation, design, testing, verification, and maintenance.',
         technology: [
-            
+            'N/A'
         ],
         completed: false
     },
@@ -214,9 +242,9 @@ const courses = [
         title: 'Senior Project',
         credits: 3,
         certificate: 'N/A',
-        description: '',
+        description: 'Previous version: CS499 In this course, students will gain experience with directed individual or group research and study of a topic in computer science not covered by the curriculum. Students will demonstrate their ability to learn and apply new material by completing a significant project.',
         technology: [
-            
+            'N/A'
         ],
         completed: false
     }
