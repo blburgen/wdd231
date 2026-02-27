@@ -46,7 +46,7 @@ const courses = [
         technology: [
             'C#'
         ],
-        completed: false
+        completed: true
     },
     {
         subject: 'WDD',
@@ -74,18 +74,166 @@ const courses = [
             'CSS',
             'JavaScript'
         ],
+        completed: true
+    },
+    {
+        subject: 'CSE',
+        number: 340,
+        title: 'Web Backend Development',
+        credits: 3,
+        certificate: 'Web Development',
+        description: '',
+        technology: [
+            
+        ],
+        completed: false
+    },
+    {
+        subject: 'CSE',
+        number: 341,
+        title: 'Web Services',
+        credits: 3,
+        certificate: 'Web Development',
+        description: '',
+        technology: [
+            
+        ],
+        completed: false
+    },
+    {
+        subject: 'ITM',
+        number: 111,
+        title: 'Introduction to Databases',
+        credits: 3,
+        certificate: 'Web Development',
+        description: '',
+        technology: [
+            
+        ],
+        completed: true
+    },
+    {
+        subject: 'WDD',
+        number: 330,
+        title: 'Web Frontend Development II',
+        credits: 3,
+        certificate: 'Web Development',
+        description: '',
+        technology: [
+            
+        ],
+        completed: false
+    },
+    {
+        subject: 'WDD',
+        number: 430,
+        title: 'Web Full-Stack Development',
+        credits: 3,
+        certificate: 'Web Development',
+        description: '',
+        technology: [
+            
+        ],
+        completed: false
+    },
+    {
+        subject: 'CSE',
+        number: 212,
+        title: 'Programming with Data Structures',
+        credits: 2,
+        certificate: 'Software Development',
+        description: '',
+        technology: [
+            
+        ],
+        completed: false
+    },
+    {
+        subject: 'CSE',
+        number: 270,
+        title: 'Software Testing',
+        credits: 3,
+        certificate: 'Software Development',
+        description: '',
+        technology: [
+            
+        ],
+        completed: false
+    },
+    {
+        subject: 'CSE',
+        number: 300,
+        title: 'Professional Readiness',
+        credits: 1,
+        certificate: 'Software Development',
+        description: '',
+        technology: [
+            
+        ],
+        completed: false
+    },
+    {
+        subject: 'CSE',
+        number: 310,
+        title: 'Applied Programming',
+        credits: 3,
+        certificate: 'Software Development',
+        description: '',
+        technology: [
+            
+        ],
+        completed: false
+    },
+    {
+        subject: 'CSE',
+        number: 325,
+        title: '.NET Software Development',
+        credits: 3,
+        certificate: 'Software Development',
+        description: '',
+        technology: [
+            
+        ],
+        completed: false
+    },
+    {
+        subject: 'CSE',
+        number: 370,
+        title: 'Software Engineering Principles',
+        credits: 2,
+        certificate: 'Software Development',
+        description: '',
+        technology: [
+            
+        ],
+        completed: false
+    },
+    {
+        subject: 'CSE',
+        number: 499,
+        title: 'Senior Project',
+        credits: 3,
+        certificate: '',
+        description: '',
+        technology: [
+            
+        ],
         completed: false
     }
+
 ]
 
 const all = document.querySelector("#all");
 const cse = document.querySelector("#cse");
 const wdd = document.querySelector("#wdd");
+const web_computer = document.querySelector("#web_computer");
+const web = document.querySelector("#web");
+const software = document.querySelector("#software");
 const result = document.querySelector("#result");
 const totalcredits = document.querySelector("#totalcredits");
 const courseDetails = document.querySelector("#course-details");
 let credits = 0;
-displayCourses(courses);
+displayCourses(courses.sort((a,b) => a.number - b.number));
 
 function displayCourses(filteredList){
     result.innerHTML = '';
@@ -113,7 +261,7 @@ function displayCourses(filteredList){
 }
 
 all.addEventListener("click", ()=>{
-    displayCourses(courses);
+    displayCourses(courses.sort((a,b) => a.number - b.number));
 })
 
 cse.addEventListener("click", ()=>{
@@ -122,6 +270,21 @@ cse.addEventListener("click", ()=>{
 
 wdd.addEventListener("click", ()=>{
     sortedList = courses.filter(item => item.subject == "WDD");
+    displayCourses(sortedList);
+})
+
+web_computer.addEventListener("click", ()=>{
+    sortedList = courses.filter(item => item.certificate == "Web and Computer Programming");
+    displayCourses(sortedList);
+})
+
+web.addEventListener("click", ()=>{
+    sortedList = courses.filter(item => item.certificate == "Web Development");
+    displayCourses(sortedList);
+})
+
+software.addEventListener("click", ()=>{
+    sortedList = courses.filter(item => item.certificate == "Software Development");
     displayCourses(sortedList);
 })
 
