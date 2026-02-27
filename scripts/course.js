@@ -213,7 +213,7 @@ const courses = [
         number: 499,
         title: 'Senior Project',
         credits: 3,
-        certificate: '',
+        certificate: 'N/A',
         description: '',
         technology: [
             

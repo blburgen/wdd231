@@ -115,6 +115,14 @@ h2{
   padding-bottom:20px
 }
 
+h3{
+  color: var(--primary-color);
+  text-align: center;
+  background-color: var(--gray-c);
+  padding-top: 10px;
+  padding-bottom:10px
+}
+
 main img{
   display: block;
   width: 200px;
